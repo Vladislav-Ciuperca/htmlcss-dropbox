@@ -1,0 +1,215 @@
+/* common rules */
+
+.debug{
+    /* background-color: #0061FF; */
+    /* border: 2px dashed green; */
+}
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boxed{
+    display: flex;
+}
+
+/* mavbar */
+/* SX */
+nav{
+    background-color: white;
+    width: 100vw;
+    height: 4rem;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+header{
+    background-color: #B4D0E7;
+    height: 45rem;
+}
+
+.head{
+    align-items: center;
+    gap: 1rem;
+}
+
+.sx{
+    width: 55vw;
+}
+
+.sx div{
+    height: 100%;
+}
+
+.logo{
+    padding: 1rem;
+    width: 12rem;
+    height: 100%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.links a{
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+/* DX */
+.dx{
+    width: 50vw;
+    justify-content: flex-end;/
+}
+
+.dx div{
+    height: 100%;
+}
+    
+input{
+    margin: 0.8rem;
+    color: rgb(255, 255, 255);
+    background-color: #0061FF;
+    padding: 0.4rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+/* header */
+/**************************** sec-1 ***********************/
+main{
+    padding-top: 5rem;
+}
+
+.sec-1{
+    max-width: 80rem;
+    margin: auto;
+}
+
+.sec-1-titolo{
+    font-weight: 900;
+    margin-top: 4rem;
+    font-size: 5rem;
+    padding: 5rem 1rem 1rem;
+}
+.sec-1-paragraf{
+    font-weight: 500;
+}
+.sec-1-paragraf div,
+.sec-1-img{
+    padding:1rem;
+}
+
+header i{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+/************* main ***************/
+/****************************** sec-2 ************************/
+.sec-2{
+    width: 50%;
+    min-height: 60rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.sec-2-titolo{
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.sec-2-label{
+    padding: 2rem 0;
+}
+
+label{
+    padding: 1rem 0 0 0;
+}
+
+/************************ tabelle sec2 ****************/
+.sec-2-piani{
+    justify-content: space-between;
+}
+
+.piano{
+    width: calc(100% / 3 - 2rem);
+}
+
+.testa{
+    text-align: center;
+    padding: 0.5rem;
+    border:1px solid rgb(139, 139, 139);
+    border-bottom: none;
+}
+
+.corpo{
+    height: 52rem;
+    line-height: 1rem;
+    padding: 1rem;
+    border:1px solid rgb(139, 139, 139);
+}
+
+.s1>.nome{
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.s1>.prezzo{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.s1>p{
+    line-height: 2.5rem;
+}
+
+.s2{
+    font-size: 0.9rem;
+    margin: 2rem 0;
+}
+
+.s2>div,
+.s5>div{
+    margin: 1rem 0;
+}
+
+.s2 i,
+.s5 i{
+    padding-right: 0.5rem;
+}
+
+.s3{
+    text-align: center;
+}
+.s3>input{
+    width: 14rem;
+    padding: 0.4rem 2rem;
+}
+.s4{
+    font-size: 0.9rem;
+    padding: 1.5rem 0 2rem;
+}
+
+hr{
+    width: 3.5rem;
+}
+
+.s5{
+    font-size: 0.9rem;
+}
+
+.s5 div:first-child{
+    padding: 2rem 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.s5 i{
+    color:#0961FF ;
+}
+
+
+
+
+
