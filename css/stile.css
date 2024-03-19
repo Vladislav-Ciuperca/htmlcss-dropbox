@@ -39,7 +39,7 @@ input{
 nav{
     background-color: white;
     width: 100vw;
-    height: 4rem;
+    min-height: 4rem;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -352,7 +352,7 @@ footer{
 }
 
 .sec-f-1{
-    width: 100vw;
+    width: 100%;
     min-height: 10rem;
     /* background-color: aqua; */
 }
@@ -379,10 +379,15 @@ footer{
     width: 50%;
     color: white;
 }
+.sq div{
+    transition: 300ms;
+}
+.sq div:hover{
+    border: 1rem solid #ffffff88;
+}
 
 .sq-1{
     background-color: #A2D39B;
-    border: 1rem solid #d6e7d3;
 }
 
 .sq-2{
@@ -394,7 +399,7 @@ footer{
 }
 
 .sq-4{
-    background-color: #D5001F;
+    background-color: #FF1C1C;
 }
 
 .sq-5{
@@ -425,4 +430,17 @@ footer{
 
 .ft-mid p{
     padding: 2rem 0;
+    font-weight: 400;
+}
+/*************************** footer section 2 ********************/
+.sec-f-2{
+    justify-content: center;
+    width: 100%;
+    min-height: 20rem;
+    background-color: #B4D0E7;
+}
+
+.sec-f-2 .sx,.sec-f-2 .dx{
+    width: 30%;
+    border: 2px dashed  red;
 }
