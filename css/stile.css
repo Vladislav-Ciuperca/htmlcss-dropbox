@@ -29,8 +29,8 @@ input{
     margin: auto;
     min-height: 10rem;
     margin-top: 8rem;
-    background-color: pink;
-    border: 2px dashed green;
+    /* background-color: pink; */
+    /* border: 2px dashed green; */
 }
 
 
@@ -318,7 +318,7 @@ hr{
 
 .sec-4-b>div{
     width: calc(100% / 3 - 2rem);
-    border: dashed 2px red;
+    /* border: dashed 2px red; */
     /* background-color: gre\en; */
     min-height: 25rem;
     margin-top: 2rem;
@@ -336,6 +336,93 @@ hr{
     margin-bottom: 1.5rem;
 }
 
-/***************************sec 5 **********************************/
+/**********************sec 5 *****************************/
 
+.sec-5 h2 {
+    /* border: 2px dashed blue; */
+    width: 65%;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+/******************************** footer *****************************************/
 
+footer{
+    margin-top: 8rem;
+}
+
+.sec-f-1{
+    width: 100vw;
+    min-height: 10rem;
+    /* background-color: aqua; */
+}
+.sq{
+    width: calc( 100% / 3 );
+    aspect-ratio: 1 / 1;
+    /* background-color: green; */
+    /* border: 2px dashed red; */
+}
+
+.ft-side{
+    flex-wrap: wrap;
+}
+
+.ft-side div{
+    /* border: 2px dashed yellow; */
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.sq img{
+    width: 50%;
+    color: white;
+}
+
+.sq-1{
+    background-color: #A2D39B;
+    border: 1rem solid #d6e7d3;
+}
+
+.sq-2{
+    background-color: #61082B;
+}
+
+.sq-3{
+    background-color: #0093CE;
+}
+
+.sq-4{
+    background-color: #D5001F;
+}
+
+.sq-5{
+    background-color: #D5001F;
+}
+
+.sq-6{
+    background-color: #B4D0E7;
+}
+
+.sq-7{
+    background-color: #0D2481;
+}
+
+.sq-8{
+    background-color: #FFD830;
+}
+
+.ft-mid{
+    background-color: whitesmoke;
+    padding: 3rem;
+}
+
+.ft-mid hr{
+    margin-top: 2rem ;
+    width: 7rem;
+}
+
+.ft-mid p{
+    padding: 2rem 0;
+}
