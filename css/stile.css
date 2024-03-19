@@ -16,6 +16,24 @@
     display: flex;
 }
 
+input{
+    color: rgb(255, 255, 255);
+    background-color: #0061FF;
+    padding: 0.4rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.widpag{
+    width: 60rem;
+    margin: auto;
+    min-height: 10rem;
+    margin-top: 8rem;
+    background-color: pink;
+    border: 2px dashed green;
+}
+
+
 /* mavbar */
 /* SX */
 nav{
@@ -70,13 +88,8 @@ header{
     height: 100%;
 }
     
-input{
-    margin: 0.8rem;
-    color: rgb(255, 255, 255);
-    background-color: #0061FF;
-    padding: 0.4rem 1rem;
-    border: none;
-    cursor: pointer;
+.btn>input{
+    margin: 1rem 2rem 1rem 0.4rem;
 }
 /* header */
 /**************************** sec-1 ***********************/
@@ -97,10 +110,14 @@ main{
 }
 .sec-1-paragraf{
     font-weight: 500;
+    width: 76%;
 }
 .sec-1-paragraf div,
 .sec-1-img{
     padding:1rem;
+}
+.sec-1-img>img{
+    width: 100%;
 }
 
 header i{
@@ -110,7 +127,7 @@ header i{
 /************* main ***************/
 /****************************** sec-2 ************************/
 .sec-2{
-    width: 50%;
+    /* width: 50%; */
     min-height: 60rem;
     margin: auto;
     margin-top: 5rem;
@@ -184,7 +201,9 @@ label{
     text-align: center;
 }
 .s3>input{
-    width: 14rem;
+    text-wrap: wrap;
+    margin: 0 auto;
+    width: 12vw;
     padding: 0.4rem 2rem;
 }
 .s4{
@@ -209,7 +228,114 @@ hr{
     color:#0961FF ;
 }
 
+.piano-team{
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.t-s2{
+    font-size: 0.9rem;
+
+}
+
+.t-sx{
+    width: 70%;
+    /* background-color: aqua; */
+}
+.t-dx{
+    text-align: center;
+    width: 30%;
+    /* background-color: aquamarine; */
+}
+
+.t-sx div{
+    margin: 0.5rem 0;
+}
+.t-sx .boxed{
+    margin: 2rem 0;
+}
+
+.t-dx input{
+    margin: 2rem 0;
+    padding: 0.5rem 2rem;
+}
+
+.t{
+    height: 17rem;
+}
+/****************************** sec 3***************************/
+
+.sec-3{
+    /* background-color: bisque; */
+    /* border: 2px dashed green; */
+    min-height: 30rem;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.sec-3-a{
+    width: 60%;
+    /* color: aqua; */
+    /* border: 2px dashed darkorchid; */
+}
+
+.sec-3-a>img{
+    width: 100%;
+}
+
+.sec-3-b{
+    padding: 3rem;
+    width: 40%;
+}                       
+.sec-3-b p{
+    padding: 2rem 0;
+}
+
+.sec-3-b input{
+    color: rgb(27, 27, 27);
+    background-color: white;
+    border: 1px solid  rgb(70, 70, 70);
+}
+
+/********************** sec 4 ******************/
+
+.sec-4{
+
+}
+
+.sec-4 .titolo{
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* border: dashed 2px red; */
+    line-height: 6rem;
+}
+
+.sec-4-b{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
+.sec-4-b>div{
+    width: calc(100% / 3 - 2rem);
+    border: dashed 2px red;
+    /* background-color: gre\en; */
+    min-height: 25rem;
+    margin-top: 2rem;
+}
+.img img{
+    width: 100%;
+}
+.sec-4 .img{
+    width: 100%;
+    /* background-color: orange; */
+    min-height: 10rem;
+}
+
+.sec-4-b h2{
+    margin-bottom: 1.5rem;
+}
+
+/***************************sec 5 **********************************/
 
 
