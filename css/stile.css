@@ -235,17 +235,14 @@ hr{
 
 .t-s2{
     font-size: 0.9rem;
-
 }
 
 .t-sx{
     width: 70%;
-    /* background-color: aqua; */
 }
 .t-dx{
     text-align: center;
     width: 30%;
-    /* background-color: aquamarine; */
 }
 
 .t-sx div{
@@ -266,8 +263,6 @@ hr{
 /****************************** sec 3***************************/
 
 .sec-3{
-    /* background-color: bisque; */
-    /* border: 2px dashed green; */
     min-height: 30rem;
     margin: auto;
     margin-top: 10rem;
@@ -275,8 +270,6 @@ hr{
 
 .sec-3-a{
     width: 60%;
-    /* color: aqua; */
-    /* border: 2px dashed darkorchid; */
 }
 
 .sec-3-a>img{
@@ -299,14 +292,9 @@ hr{
 
 /********************** sec 4 ******************/
 
-.sec-4{
-
-}
-
 .sec-4 .titolo{
     font-weight: 700;
     font-size: 2.5rem;
-    /* border: dashed 2px red; */
     line-height: 6rem;
 }
 
@@ -318,8 +306,6 @@ hr{
 
 .sec-4-b>div{
     width: calc(100% / 3 - 2rem);
-    /* border: dashed 2px red; */
-    /* background-color: gre\en; */
     min-height: 25rem;
     margin-top: 2rem;
 }
@@ -328,7 +314,6 @@ hr{
 }
 .sec-4 .img{
     width: 100%;
-    /* background-color: orange; */
     min-height: 10rem;
 }
 
@@ -339,7 +324,6 @@ hr{
 /**********************sec 5 *****************************/
 
 .sec-5 h2 {
-    /* border: 2px dashed blue; */
     width: 65%;
     font-size: 2.4rem;
     font-weight: 700;
@@ -354,13 +338,10 @@ footer{
 .sec-f-1{
     width: 100%;
     min-height: 10rem;
-    /* background-color: aqua; */
 }
 .sq{
     width: calc( 100% / 3 );
     aspect-ratio: 1 / 1;
-    /* background-color: green; */
-    /* border: 2px dashed red; */
 }
 
 .ft-side{
@@ -368,7 +349,6 @@ footer{
 }
 
 .ft-side div{
-    /* border: 2px dashed yellow; */
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
     justify-content: center;
@@ -483,12 +463,17 @@ footer{
     font-size: 0.7rem;
 }
 
-.faq:hover + .faq-1{
-    color: red;
-    /* display: block; */
+.tavola:hover .faq-p{
+    display: block;
+
 }
 
 .faq-p{
-    /* display: none; */
+    display: none;
     padding: 1rem 0;
+}
+
+.tavola{
+    min-height: 5rem;
+
 }
