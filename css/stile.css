@@ -1,8 +1,8 @@
 /* common rules */
 
 .debug{
-    /* background-color: #0061FF; */
-    /* border: 2px dashed green; */
+    background-color: #76ffb4;
+    border: 2px dashed rgb(255, 0, 255);
 }
 
 *{
@@ -433,6 +433,7 @@ footer{
     font-weight: 400;
 }
 /*************************** footer section 2 ********************/
+
 .sec-f-2{
     justify-content: center;
     width: 100%;
@@ -441,6 +442,53 @@ footer{
 }
 
 .sec-f-2 .sx,.sec-f-2 .dx{
-    width: 30%;
-    border: 2px dashed  red;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-f-2 .sx{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.sec-f-2 input{
+    margin-bottom: 3rem;
+    background-color: whitesmoke;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+    padding: 0.6rem 2.7rem ;
+}
+
+/********************************* sectio footer 3 **********************************/
+.faq{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.sec-f-3 .boxed{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 4.5rem;
+    font-weight: 600;
+}
+
+.sec-f-3 hr{
+    width: 100%;
+}
+
+.fa-chevron-down{
+    margin-right: 2rem;
+    font-size: 0.7rem;
+}
+
+.faq:hover + .faq-1{
+    color: red;
+    /* display: block; */
+}
+
+.faq-p{
+    /* display: none; */
+    padding: 1rem 0;
 }
