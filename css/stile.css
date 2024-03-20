@@ -1,21 +1,13 @@
 /* common rules */
-
-.debug{
-    background-color: #76ffb4;
-    border: 2px dashed rgb(255, 0, 255);
-}
-
 *{
     font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 .boxed{
     display: flex;
 }
-
 input{
     color: rgb(255, 255, 255);
     background-color: #0061FF;
@@ -23,17 +15,12 @@ input{
     border: none;
     cursor: pointer;
 }
-
 .widpag{
     width: 60rem;
     margin: auto;
     min-height: 10rem;
     margin-top: 8rem;
-    /* background-color: pink; */
-    /* border: 2px dashed green; */
 }
-
-
 /* mavbar */
 /* SX */
 nav{
@@ -44,35 +31,31 @@ nav{
     position: fixed;
     top: 0;
 }
-
 header{
     background-color: #B4D0E7;
     height: 45rem;
 }
-
 .head{
     align-items: center;
     gap: 1rem;
 }
-
 .sx{
     width: 55vw;
 }
-
 .sx div{
     height: 100%;
 }
-
 .logo{
     padding: 1rem;
     width: 12rem;
     height: 100%;
 }
-
 .logo img{
     width: 100%;
 }
-
+.links a:hover{
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
 .links a{
     padding: 1rem;
     text-decoration: none;
@@ -83,11 +66,9 @@ header{
     width: 50vw;
     justify-content: flex-end;/
 }
-
 .dx div{
     height: 100%;
-}
-    
+}   
 .btn>input{
     margin: 1rem 2rem 1rem 0.4rem;
 }
@@ -96,13 +77,11 @@ header{
 main{
     padding-top: 5rem;
 }
-
 .sec-1{
     max-width: 80rem;
     margin: auto;
-min-height: 10rem;
+    min-height: 10rem;
 }
-
 .sec-1-titolo{
     font-weight: 900;
     margin-top: 4rem;
@@ -120,7 +99,6 @@ min-height: 10rem;
 .sec-1-img>img{
     width: 100%;
 }
-
 header i{
     font-size: 2rem;
     padding-top: 2rem;
@@ -128,12 +106,10 @@ header i{
 /************* main ***************/
 /****************************** sec-2 ************************/
 .sec-2{
-    /* width: 50%; */
     min-height: 60rem;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
-
 .sec-2-titolo{
     font-size: 2.2rem;
     font-weight: 700;
@@ -142,34 +118,28 @@ header i{
 .sec-2-label{
     padding: 2rem 0;
 }
-
 label{
     padding: 1rem 0 0 0;
 }
-
 /************************ tabelle sec2 ****************/
 .sec-2-piani{
     justify-content: space-between;
 }
-
 .piano{
     width: calc(100% / 3 - 2rem);
 }
-
 .testa{
     text-align: center;
     padding: 0.5rem;
     border:1px solid rgb(139, 139, 139);
     border-bottom: none;
 }
-
 .corpo{
     height: 52rem;
     line-height: 1rem;
     padding: 1rem;
     border:1px solid rgb(139, 139, 139);
 }
-
 .s1>.nome{
     line-height: 4rem;
     font-weight: 700;
@@ -182,22 +152,18 @@ label{
 .s1>p{
     line-height: 2.5rem;
 }
-
 .s2{
     font-size: 0.9rem;
     margin: 2rem 0;
 }
-
 .s2>div,
 .s5>div{
     margin: 1rem 0;
 }
-
 .s2 i,
 .s5 i{
     padding-right: 0.5rem;
 }
-
 .s3{
     text-align: center;
 }
@@ -211,15 +177,12 @@ label{
     font-size: 0.9rem;
     padding: 1.5rem 0 2rem;
 }
-
 hr{
     width: 3.5rem;
 }
-
 .s5{
     font-size: 0.9rem;
 }
-
 .s5 div:first-child{
     padding: 2rem 0;
     font-weight: 700;
@@ -228,16 +191,13 @@ hr{
 .s5 i{
     color:#0961FF ;
 }
-
 .piano-team{
     margin-top: 2.5rem;
     width: 100%;
 }
-
 .t-s2{
     font-size: 0.9rem;
 }
-
 .t-sx{
     width: 70%;
 }
@@ -245,38 +205,31 @@ hr{
     text-align: center;
     width: 30%;
 }
-
 .t-sx div{
     margin: 0.5rem 0;
 }
 .t-sx .boxed{
     margin: 2rem 0;
 }
-
 .t-dx input{
     margin: 2rem 0;
     padding: 0.5rem 2rem;
 }
-
 .t{
     height: 17rem;
 }
 /****************************** sec 3***************************/
-
 .sec-3{
     min-height: 30rem;
     margin: auto;
     margin-top: 10rem;
 }
-
 .sec-3-a{
     width: 60%;
 }
-
 .sec-3-a>img{
     width: 100%;
 }
-
 .sec-3-b{
     padding: 3rem;
     width: 40%;
@@ -284,27 +237,21 @@ hr{
 .sec-3-b p{
     padding: 2rem 0;
 }
-
 .sec-3-b input{
     color: rgb(27, 27, 27);
     background-color: white;
     border: 1px solid  rgb(70, 70, 70);
 }
-
 /********************** sec 4 ******************/
-
 .sec-4 .titolo{
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 6rem;
 }
-
 .sec-4-b{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
 .sec-4-b>div{
     width: calc(100% / 3 - 2rem);
     min-height: 25rem;
@@ -317,13 +264,10 @@ hr{
     width: 100%;
     min-height: 10rem;
 }
-
 .sec-4-b h2{
     margin-bottom: 1.5rem;
 }
-
 /**********************sec 5 *****************************/
-
 .sec-5 h2 {
     width: 65%;
     font-size: 2.4rem;
@@ -340,95 +284,73 @@ hr{
     width: calc( 100% / 3 );
     aspect-ratio: 1 / 1;
 }
-
 .ft-side{
     flex-wrap: wrap;
 }
-
 .ft-side div{
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
     justify-content: center;
     align-items: center;
 }
-
 .sq img{
     width: 50%;
-    color: white;
-}
-.sq div{
-    transition: 300ms;
 }
 .sq div:hover{
     border: 1rem solid #ffffff88;
 }
-
 .sq-1{
     background-color: #A2D39B;
 }
-
 .sq-2{
     background-color: #61082B;
 }
-
 .sq-3{
     background-color: #0093CE;
 }
-
 .sq-4{
     background-color: #FF1C1C;
 }
-
 .sq-5{
     background-color: #D5001F;
 }
-
 .sq-6{
     background-color: #B4D0E7;
 }
-
 .sq-7{
     background-color: #0D2481;
 }
-
 .sq-8{
     background-color: #FFD830;
 }
-
 .ft-mid{
     background-color: whitesmoke;
     padding: 3rem;
 }
-
 .ft-mid hr{
     margin-top: 2rem ;
     width: 7rem;
 }
-
 .ft-mid p{
     padding: 2rem 0;
     font-weight: 400;
 }
 /*************************** footer section 2 ********************/
-
 .sec-f-2{
     justify-content: center;
     width: 100%;
     min-height: 20rem;
     background-color: #B4D0E7;
 }
-
 .sec-f-2 .sx,.sec-f-2 .dx{
     width: 30rem;
     justify-content: center;
     align-items: center;
 }
-
 .sec-f-2 .sx{
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 .sec-f-2 input{
     margin-bottom: 3rem;
     background-color: whitesmoke;
@@ -436,86 +358,69 @@ hr{
     font-weight: 600;
     padding: 0.6rem 2.7rem ;
 }
-
 /********************************* sectio footer 3 **********************************/
 .faq{
     font-weight: 700;
     font-size: 2.5rem;
     padding-bottom: 3rem;
 }
-
 .sec-f-3 .boxed{
     justify-content: space-between;
     align-items: center;
     min-height: 4.5rem;
     font-weight: 600;
 }
-
 .sec-f-3 hr{
     width: 100%;
 }
-
 .fa-chevron-down{
     margin-right: 2rem;
     font-size: 0.7rem;
 }
-
 .tavola:hover .faq-p{
-    display: block;
-    
+    display: block; 
 }
-
 .tavola:hover i{
     transform: rotate(180deg);
 }
-
 .faq-p{
     display: none;
     padding: 1rem 0;
 }
-
 .tavola{
     min-height: 5rem;
-
 }
 /******************************* footer **********************/
-
 footer{
     margin-top: 8rem;
     background-color: black;
     padding-top: 4rem;
 }
-
 .foot-1{
     width: 80rem;
     min-height: 10rem;
     margin: auto;
     display: flex;
 }
-
 .foot-sec{
     width: calc(100% / 5);
     min-height: 10rem;
     line-height: 2rem;
     color: white;
 }
-
 .foot-2{
     width: 80rem;
     min-height: 6rem;
     margin: auto;
 }
-
 .foot-sec h2{
     line-height: 4rem;
 }
-
 .foot-2{
     padding: 3rem 0;
     color: white;
     font-size: 0.8rem;
 }
-
 .foot-2 hr{
     margin: 2rem 0;
     width: 6rem;
