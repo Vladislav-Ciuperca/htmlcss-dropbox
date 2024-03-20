@@ -100,6 +100,7 @@ main{
 .sec-1{
     max-width: 80rem;
     margin: auto;
+min-height: 10rem;
 }
 
 .sec-1-titolo{
@@ -330,12 +331,8 @@ hr{
     padding: 2rem 0;
 }
 /******************************** footer *****************************************/
-
-footer{
-    margin-top: 8rem;
-}
-
 .sec-f-1{
+    margin-top: 8rem;
     width: 100%;
     min-height: 10rem;
 }
@@ -465,7 +462,11 @@ footer{
 
 .tavola:hover .faq-p{
     display: block;
+    
+}
 
+.tavola:hover i{
+    transform: rotate(180deg);
 }
 
 .faq-p{
@@ -476,4 +477,46 @@ footer{
 .tavola{
     min-height: 5rem;
 
+}
+/******************************* footer **********************/
+
+footer{
+    margin-top: 8rem;
+    background-color: black;
+    padding-top: 4rem;
+}
+
+.foot-1{
+    width: 80rem;
+    min-height: 10rem;
+    margin: auto;
+    display: flex;
+}
+
+.foot-sec{
+    width: calc(100% / 5);
+    min-height: 10rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.foot-2{
+    width: 80rem;
+    min-height: 6rem;
+    margin: auto;
+}
+
+.foot-sec h2{
+    line-height: 4rem;
+}
+
+.foot-2{
+    padding: 3rem 0;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.foot-2 hr{
+    margin: 2rem 0;
+    width: 6rem;
 }
