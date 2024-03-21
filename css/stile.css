@@ -172,7 +172,7 @@ label{
 .s3>input{
     text-wrap: wrap;
     margin: 0 auto;
-    max-width: 12vw;
+    width: 90%;
     padding: 0.4rem 2rem;
 }
 .s4{
