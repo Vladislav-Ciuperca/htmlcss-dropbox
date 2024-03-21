@@ -81,6 +81,10 @@ main{
     margin: auto;
     min-height: 10rem;
 }
+.sec-1 a{
+    text-decoration: none;
+    color: black;
+}
 .sec-1-titolo{
     font-weight: 900;
     margin-top: 4rem;
